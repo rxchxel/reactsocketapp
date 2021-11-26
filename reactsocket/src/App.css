@@ -1,7 +1,14 @@
 .App {
   text-align: center;
+  background-color:aqua;
 }
 
+.Chat{
+  text-align: center;
+  background-color: black;
+  color:white;
+  display: inline-block;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
