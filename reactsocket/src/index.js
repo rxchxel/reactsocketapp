@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Chat from './chat.js';
+import App from './App.js';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Chat />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
