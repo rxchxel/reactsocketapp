@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './App.css';
 
-const NewMessage = ({socket}) => {
-  const [value, setValue] = useState('');
+const NewMessage = ({socket, value, setValue}) => {
+  
   const submitForm = (e) => {
     e.preventDefault();
     socket.emit('message', value);
